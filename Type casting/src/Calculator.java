@@ -5,7 +5,7 @@
 	      double num2;
 	      double ans;
 	      char op;
-	      var reader = new Scanner(System.in);
+	      Scanner reader = new Scanner(System.in);
 	      System.out.print("Enter two numbers: ");
 	      num1 = reader.nextDouble();
 	      num2 = reader.nextDouble();
